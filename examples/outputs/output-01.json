@@ -1,0 +1,47 @@
+{
+  "bbeg": {
+    "name": "Arcanist Xytherion, the Fractured Mind",
+    "cr": 7,
+    "theme": "Failed arcane experiment",
+    "statblock": {
+      "ac": 15,
+      "hp": 110,
+      "speed": "30 ft",
+      "abilities": {
+        "str": 10,
+        "dex": 14,
+        "con": 18,
+        "int": 20,
+        "wis": 14,
+        "cha": 12
+      },
+      "saves": ["Int", "Con"],
+      "skills": ["Arcana", "Investigation", "Perception"],
+      "resistances": ["Psychic", "Nonmagical B/P/S"],
+      "immunities": ["Charmed", "Frightened"]
+    }
+  },
+  "rooms": [
+    { "room_id": "R1", "name": "Ruined Lecture Hall" },
+    { "room_id": "R2", "name": "Apprentice Dormitory" },
+    { "room_id": "R3", "name": "Arcane Library" },
+    { "room_id": "R4", "name": "Alchemical Workshop" },
+    { "room_id": "R5", "name": "Arcane Nexus Chamber" },
+    { "room_id": "R6", "name": "Containment Vault" },
+    { "room_id": "R7", "name": "Observation Gallery" },
+    { "room_id": "R8", "name": "Core Laboratory" }
+  ],
+  "map": {
+    "topDown": true,
+    "rooms": [
+      { "room_id": "R1", "x": 0, "y": 0, "width": 8, "height": 6 },
+      { "room_id": "R2", "x": 10, "y": 0, "width": 8, "height": 6 },
+      { "room_id": "R3", "x": 10, "y": 8, "width": 8, "height": 6 },
+      { "room_id": "R4", "x": 20, "y": 8, "width": 8, "height": 6 },
+      { "room_id": "R5", "x": 20, "y": 16, "width": 10, "height": 8 },
+      { "room_id": "R6", "x": 20, "y": 26, "width": 8, "height": 6 },
+      { "room_id": "R7", "x": 20, "y": 34, "width": 8, "height": 6 },
+      { "room_id": "R8", "x": 20, "y": 42, "width": 12, "height": 10 }
+    ]
+  }
+}

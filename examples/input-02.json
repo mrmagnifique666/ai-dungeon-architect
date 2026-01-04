@@ -1,0 +1,71 @@
+{
+  "mode": "standard",
+  "generation_type": "one-shot",
+  "theme": "Crypt of the Restless Dead beneath a drowned chapel",
+  "tone": "gothic, oppressive, candlelit dread",
+  "dungeon_idea": "A coastal chapel sank during a storm decades ago. Beneath its flooded foundations lies a crypt where a broken funerary oath keeps the dead from resting. A malignant warden spirit is assembling the bones of the drowned into a single, purposeful horror.",
+  "party": {
+    "system": "D&D 5e",
+    "party_size": 4,
+    "party_level": 3,
+    "composition_notes": "Mixed party; at least one source of radiant damage is likely but not required."
+  },
+  "constraints": {
+    "combat_profile": "combat-heavy",
+    "traps": "low",
+    "social_roleplay": "medium",
+    "exploration_puzzle": "medium"
+  },
+  "bbeg_preferences": {
+    "must_be_unique": true,
+    "theme_tied": true,
+    "final_room_logic_required": true,
+    "allowed_types": [
+      "undead spirit",
+      "cursed mortuary guardian",
+      "necromantic anomaly"
+    ],
+    "disallowed_types": [
+      "lich",
+      "vampire lord",
+      "demon"
+    ]
+  },
+  "srd_policy": {
+    "standalone_dm": true,
+    "non_bbeg_monsters": "SRD-only",
+    "include_full_srd_statblocks": true,
+    "allow_original_bbeg": true,
+    "no_non_srd_names": true
+  },
+  "map_preferences": {
+    "grid_type": "standard",
+    "units": "5ft",
+    "top_down_required": true,
+    "allow_dead_ends": true,
+    "corridor_style": "orthogonal",
+    "overlap_forbidden": true,
+    "prefer_direct_adjacency": true,
+    "max_corridor_length_squares": 12
+  },
+  "dungeon_preferences": {
+    "room_count": 8,
+    "final_room_is_largest": true,
+    "include_one_secret": true,
+    "include_one_flooded_zone": true,
+    "include_one_chokepoint_fight": true,
+    "environmental_hazards": [
+      "cold water",
+      "slick stone",
+      "salt-choked air"
+    ]
+  },
+  "output_preferences": {
+    "include_json_export": true,
+    "include_top_down_map_prompt": true,
+    "verbosity": "dm-dense-immersive",
+    "room_prose_min_paragraphs": 2,
+    "require_room_template_headings": true
+  },
+  "missing_inputs_policy": "mark_missing_and_continue"
+}

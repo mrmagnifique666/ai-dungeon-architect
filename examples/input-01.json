@@ -1,0 +1,27 @@
+@"
+{
+  "mode": "standard",
+  "language": "en",
+  "theme": "A drowned cathedral beneath a ruined coastal city",
+  "tone": "dark fantasy",
+  "party": {
+    "size": 4,
+    "level": 5
+  },
+  "user_idea": "The dungeon is slowly flooding. The BBEG is bound to a relic that controls tides.",
+  "constraints": {
+    "rooms_range": [6, 12],
+    "encounter_profile": {
+      "combat": "high",
+      "traps": "low",
+      "social": "medium",
+      "exploration_puzzle": "medium"
+    },
+    "images": {
+      "count": 1,
+      "style": "Dungeon Magazine illustration"
+    },
+    "map_format": "cartesian_rooms_list"
+  }
+}
+"@ | Set-Content -Encoding UTF8 .\examples\input-01.json

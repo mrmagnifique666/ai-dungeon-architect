@@ -8,5 +8,6 @@ coverage/
 .DS_Store
 
 # Generated outputs (do not commit)
+examples/outputs/
 examples/output-latest.*
 examples/output-raw.txt

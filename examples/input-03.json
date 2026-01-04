@@ -1,0 +1,31 @@
+{
+  "mode": "standard",
+  "theme": "Crypt of the Restless Dead beneath a drowned chapel",
+  "tone": "gothic, oppressive, candlelit dread",
+  "party": {
+    "system": "D&D 5e",
+    "party_size": 4,
+    "party_level": 3
+  },
+  "dungeon_preferences": {
+    "room_count_range": [6, 12],
+    "layout_style": "branched",
+    "final_room_is_largest": true,
+    "include_one_secret": true,
+    "include_one_flooded_zone": true,
+    "include_one_chokepoint_fight": true
+  },
+  "map_preferences": {
+    "grid_type": "standard",
+    "units": "5ft",
+    "bounds": { "width": 80, "height": 60 },
+    "corridor_style": "orthogonal",
+    "overlap_forbidden": true,
+    "prefer_direct_adjacency": true,
+    "max_corridor_length_squares": 12
+  },
+  "output_preferences": {
+    "include_top_down_map_prompt": true,
+    "verbosity": "dm-dense-immersive"
+  }
+}

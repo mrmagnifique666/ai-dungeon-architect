@@ -1,5 +1,4 @@
-﻿@"
-node_modules/
+﻿node_modules/
 .next/
 dist/
 out/
@@ -11,4 +10,3 @@ coverage/
 # Generated outputs (do not commit)
 examples/output-latest.*
 examples/output-raw.txt
-"@ | Out-File -Encoding utf8 .gitignore
